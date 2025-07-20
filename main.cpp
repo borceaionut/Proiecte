@@ -4,7 +4,7 @@ using namespace std;
 
 
 
-void triunghi_intors(){
+void romb(){
    int j;
    int i;
    int n = 11;
@@ -41,6 +41,6 @@ cout << endl;
 
 int main()
 {
-triunghi_intors();
+romb();
     return 0;
 }
