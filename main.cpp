@@ -3,30 +3,44 @@
 using namespace std;
 
 
-void piramida(){
- int n = 15;
- int i,j;
- for(i = 1; i < n; i++){
-    for(j = 1; j < n - i; j++){
-      cout << " ";
+
+void romb(){
+   int j;
+   int i;
+   int n = 11;
+
+    for(i = n; i >= 1; i--){
+        for(j = 0; j < i; j++){
+            cout <<" ";
     }
-    for(j = 1; j < i; j++){
+    for( j = 11; j > i; j--){
+         cout << "*";
+    }
+    for( j = 0; j <= n - i ;j++){
         cout << "*";
     }
-     for(j = 1; j <= i; j++){
+
+    cout << endl;
+}
+    for(i = 0; i < 12; i++){
+        for(j = 0; j < i; j++){
+            cout <<" ";
+    }
+    for( j = 11; j > i; j--){
+         cout << "*";
+    }
+    for( j = 0; j <= n - i;j++){
         cout << "*";
     }
     cout << endl;
-
- }
-
+}
+cout << endl;
 
 }
 
 
-
 int main()
 {
-    piramida();
+romb();
     return 0;
 }
