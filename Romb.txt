@@ -1,0 +1,6 @@
+﻿Build started at 5:17 PM...
+1>------ Build started: Project: Experimente, Configuration: Debug x64 ------
+1>Experimente.cpp
+1>Experimente.vcxproj -> C:\Users\Ionut Borcea\Desktop\proiecte c++\Experimente\Experimente\x64\Debug\Experimente.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 5:17 PM and took 00.819 seconds ==========
